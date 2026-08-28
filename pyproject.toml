@@ -1,0 +1,14 @@
+[project]
+name = "conspiracy-chat-bot"
+version = "0.1.0"
+description = "conspiracy.chat.bot"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit",
+    "groq",
+    "requests"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
